@@ -1,0 +1,16 @@
+.formLoginPage{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+@media (max-width: 650px) {
+    .formLoginPage{
+        padding-top: 20%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

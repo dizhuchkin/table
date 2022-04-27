@@ -1,0 +1,50 @@
+.myContact{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.myContact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4f83d1;
+    z-index: 2;
+}
+
+.contact__body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.contact__menu {
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.contact__menu li {
+    float: left;
+    margin: 0px 20px 0px 0px;
+    font-size: 24px;
+    list-style-type: none;
+
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1080px){
+    .contact__body {
+        height: 50px;
+    }
+}
+

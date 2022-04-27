@@ -1,0 +1,113 @@
+.myInput__div{
+    background-color: #cdeef6;
+    justify-content: space-between;
+    display: block;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px 10px 5px 10px;
+    color: #183790;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    border: solid;
+    border-color: #183790;
+}
+
+.myInput__div1{
+    background-color: #cdeef6;
+    justify-content: space-between;
+    display: block;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px 10px 5px 10px;
+    color: #183790;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    border: solid;
+    border-color: #183790;
+}
+
+.myInput{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.137);
+}
+
+@media(max-width: 1200px){
+    .myInput__div1 {
+        margin: 5px 10px 5px 10px;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 726px){
+    .myInput {
+        width: 90%;
+    }
+}
+
+@media(max-width: 480px){
+    .myInput__div {
+        margin: 5px 10px 5px 10px;
+        font-size: 1rem;
+    }
+    .myInput__div1 {
+        margin: 5px 10px 5px 10px;
+        font-size: 1rem;
+    }
+    .myInput {
+        width: 85%;
+        font-size: 0.8rem;
+    }
+}
+
+.myInput__divtime{
+    background-color: #cdeef6;
+    justify-content: space-between;
+    display: none;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px 10px 5px 10px;
+    color: #183790;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    border: solid;
+    border-color: #183790;
+}
+
+@media(max-width: 700px){
+    .myInput__divtime {
+        margin: 5px 10px 5px 10px;
+        font-size: 1rem;
+        display: block;
+    }
+
+}
+
+.myInput__divtime2{
+    background-color: #cdeef6;
+    justify-content: space-between;
+    display: block;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px 10px 5px 10px;
+    color: #183790;
+    padding: 8px 16px;
+    font-size: 2rem;
+    border: solid;
+    border-color: #183790;
+}
+
+@media(max-width: 700px){
+    .myInput__divtime2 {
+        margin: 5px 10px 5px 10px;
+        font-size: 1rem;
+        display: none;
+    }
+
+}

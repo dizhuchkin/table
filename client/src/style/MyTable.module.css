@@ -1,0 +1,92 @@
+.myTableData{
+    width: 100%;
+}
+
+.myTableData td tr {
+    text-align: center;
+    padding: 0px;
+}
+
+.myTableData td {
+    font-size: 1.7rem;
+    border-bottom: solid;
+    border-color: #4f83d1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myTableData thead {
+    background-color: #4f83d1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media(max-width: 550px){
+
+    .myTableData thead {
+        font-size: 1rem;
+    }
+    .myTableData td {
+        font-size: 1rem;
+    }
+}
+
+
+.myTableData1{
+    width: 100%;
+}
+
+.myTableData1 td tr {
+    text-align: center;
+    padding: 0px;
+}
+
+.myTableData1 td {
+    font-size: 1rem;
+    border-bottom: solid;
+    border-color: #4f83d1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myTableData1 thead {
+    background-color: #4f83d1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image{
+    height: 200px;
+}
+
+.myTd{
+    font-size: 1.8rem;
+    width: 2px;
+    padding-left: 30% 
+}
+
+@media(max-width: 700px){
+    .tdCenter{
+        display: none;
+    }
+}
+
+@media(max-width: 550px){
+    .myTd{
+        font-size: 2rem;
+    }
+    .myTableData1 thead {
+        font-size: 1rem;
+    }
+    .myTableData1 td {
+        font-size: 1rem;
+    }
+}
+
+@media(max-height: 700px){
+    .image{
+        display: none;
+    }
+}

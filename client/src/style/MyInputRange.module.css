@@ -1,0 +1,25 @@
+.myInputRange{
+    display: inline-block;
+    -webkit-appearance: none;
+    background-color: #bdc3c7;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: 0;
+}
+
+.myInputRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #4f83d1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+} 
+
+.myInputRange::-webkit-slider-thumb:active{
+    transform: scale(1.6);
+}

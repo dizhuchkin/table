@@ -1,0 +1,48 @@
+.myButton{
+    border: none;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px;
+    background: #4f83d1;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 70px;
+    box-shadow: 0.1em 0.1em 5px rgba(122, 122, 122, 0.5);
+}
+
+
+@media(max-width: 480px){
+    .myButton {
+        font-size:1.2rem;
+        height: 50px;
+    }
+}
+
+@media(max-height: 1500px){
+    .myButton {
+        height: 50px;
+    }
+}
+
+.myButtonMainPage{
+    border: none;
+    font-family: inherit;
+    appearance: none;
+    margin: 5px;
+    background: #4f83d1;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 2rem;
+    cursor: pointer;
+    height: 70px;
+    box-shadow: 0.1em 0.1em 5px rgba(122, 122, 122, 0.5);
+}
+
+@media(max-width: 480px){
+    .myButtonMainPage {
+        font-size:1.2rem;
+        height: 50px;
+    }
+}
